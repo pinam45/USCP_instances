@@ -8,6 +8,11 @@ All the instances are available online on a *source website*, this repository wa
 
 Information about (2018) state of the art problem preprocessing and solving approaches with the best know solutions for these instances can be found in [Kritter2019].
 
+Comma separated list of instances names:
+```
+4.1,4.2,4.3,4.4,4.5,4.6,4.7,4.8,4.9,4.10,5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9,5.10,6.1,6.2,6.3,6.4,6.5,A.1,A.2,A.3,A.4,A.5,B.1,B.2,B.3,B.4,B.5,C.1,C.2,C.3,C.4,C.5,D.1,D.2,D.3,D.4,D.5,E.1,E.2,E.3,E.4,E.5,NRE.1,NRE.2,NRE.3,NRE.4,NRE.5,NRF.1,NRF.2,NRF.3,NRF.4,NRF.5,NRG.1,NRG.2,NRG.3,NRG.4,NRG.5,NRH.1,NRH.2,NRH.3,NRH.4,NRH.5,CLR10,CLR11,CLR12,CLR13,CYC6,CYC7,CYC8,CYC9,CYC10,CYC11,RAIL507,RAIL516,RAIL582,RAIL2536,RAIL2586,RAIL4284,RAIL4872,STS9,STS15,STS27,STS45,STS81,STS135,STS243,STS405,STS729,STS1215,STS2187
+```
+
 ## OR-Library (87)
 
 For more information about the instances and the files format, see the [source website](http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html) and the related [README](OR-Library/README).
@@ -71,11 +76,11 @@ Comma separated list of instances names:
 RAIL507,RAIL516,RAIL582,RAIL2536,RAIL2586,RAIL4284,RAIL4872
 ```
 
-## Steiner triple covering problem (9)
+## Steiner triple covering problem (11)
 
-For more information about the instances and the files format, see the [source website](http://mauricio.resende.info/data/index.html) and the related [README](steiner-triple-covering/README).
+For more information about the instances and the files format, see the [source website](http://mauricio.resende.info/data/index.html) (and [this website](http://www.co.mi.i.nagoya-u.ac.jp/~yagiura/scp/stcp/) for the 2 last instances) and the related [README](steiner-triple-covering/README).
 
-### Instances (9)
+### Instances (11)
 
 | Instance | Rows   | Columns | Density | Cost range |
 |:---------|:-------|:--------|:--------|:-----------|
@@ -88,10 +93,12 @@ For more information about the instances and the files format, see the [source w
 | STS243   | 9801   | 243     | 1.2%    | [1;1]      |
 | STS405   | 27270  | 405     | 0.7%    | [1;1]      |
 | STS729   | 88452  | 729     | 0.4%    | [1;1]      |
+| STS1215  | 245835 | 1215    | 0.2%    | [1;1]      |
+| STS2187  | 796797 | 2187    | 0.1%    | [1;1]      |
 
 Comma separated list of instances names:
 ```
-STS9,STS15,STS27,STS45,STS81,STS135,STS243,STS405,STS729
+STS9,STS15,STS27,STS45,STS81,STS135,STS243,STS405,STS729,STS1215,STS2187
 ```
 
 # References
